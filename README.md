@@ -16,7 +16,7 @@ Due to limitations in regards to accessing free Google Cloud Platform (GCP), the
 Connect with me on these platforms:
 
 <a href="https://twitter.com/Blestseun"><img src="https://res.cloudinary.com/kolaisaac10/image/upload/v1598833526/samples/Social%20Site/twitter1_jtffso.png" alt="Twitter Link" width="120" height="45" /> </a>
-<a href="https://www.linkedin.com/in/kolawole-oluwaseun-8591897a"><img src="https://res.cloudinary.com/kolaisaac10/image/upload/v1598828481/samples/Social%20Site/linkedIn_kgfq3n.png" alt="LinkedIn Link" width="120" height="45"/> </a>
+<a href="https://www.linkedin.com/in/kolaisaac10/"><img src="https://res.cloudinary.com/kolaisaac10/image/upload/v1598828481/samples/Social%20Site/linkedIn_kgfq3n.png" alt="LinkedIn Link" width="120" height="45"/> </a>
 
 - 🌱 I’m am always learning, I formed #DL3 (Dedicated Life Long Learner)
 
