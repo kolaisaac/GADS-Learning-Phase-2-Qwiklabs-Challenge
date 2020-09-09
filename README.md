@@ -13,6 +13,18 @@ The Google Africa Developer Scholarship (GADS) program gives free access to Plur
 All Google Cloud learners have access to multiple learning channels on Pluralsight. 
 Due to limitations in regards to accessing free Google Cloud Platform (GCP), the Google Cloud challenge is based on the available hands-on labs on Qwiklabs provided by Pluralsight.
 
+### Completed Labs Pixs :
+<a href='https://github.com/kolaisaac/GADS-Learning-Phase-2-Qwiklabs-Challenge/tree/master/Qwiklab%20Pixs'>
+  
+ - Completed Labs Pixs
+ </a>
+ 
+### Translated Labs :
+<a href=''>
+  
+ - Translated Labs 
+ </a>
+
 Connect with me on these platforms:
 
 <a href="https://twitter.com/Blestseun"><img src="https://res.cloudinary.com/kolaisaac10/image/upload/v1598833526/samples/Social%20Site/twitter1_jtffso.png" alt="Twitter Link" width="120" height="45" /> </a>
