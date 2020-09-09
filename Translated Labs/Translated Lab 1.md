@@ -16,6 +16,19 @@ In this lab, you will learn how to perform the following tasks:
 - Automate builds with triggers
 - Test your build changes
 
+## Set up your lab environment
+
+For each lab, you get a new GCP project and set of resources for a fixed time at no cost.
+
+1. Make sure you signed into Qwiklabs using an incognito window.
+2. Note the lab's access time (for example, images/TimeCount.png and make sure you can finish in that time block.
+```bash
+There is no pause feature. You can restart if needed, but you have to start at the beginning.
+```
+3. When ready, click images/StartLabClick.png.
+4. Note your lab credentials. You will use them to sign in to Cloud Platform Console.
+![Cloud Platform Console](images/OpenConsole.png)
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
