@@ -47,6 +47,64 @@ This clears your work and removes the project.
 
 First, you will create a Git repository using the Cloud Source Repositories service in Google Cloud. This Git repository will be used to store your source code. Eventually, you will create a build trigger that starts a continuous integration pipeline when code is pushed to it.
 
+1. From the ***google cloud shell***, call:
+
+```
+gcloud init
+```
+   - Type **2** to create a new configuration
+   - Give the configuration a name
+   - Type **1** to select your account
+   - Type **6** to choose your project
+
+2. Create a ***repos source*** with a REPO_NAME
+```
+gcloud source repos create [REPO_NAME]
+```
+Where [REPO_NAME] is the name for your repository, in my case it is ***devops-repo*** as shown below.
+
+```
+gcloud source repos create devops-repo
+```
+3. Enter the following command to create a folder called ***gcp-course***:
+
+```
+mkdir gcp-course
+```
+4. Change to the folder you just created:
+
+```
+cd gcp-course
+```
+5. Now clone the empty repository you just created:
+```
+gcloud source repos clone devops-repo
+```
+***You will see a warning that you have cloned an empty repository. That is expected at this point***.
+
+6. The previous command created an empty folder called devops-repo. Change to that folder:
+```
+cd devops-repo
+```
+
+## Task 2: Create a Simple Python Application
+
+You need some source code to manage. So, you will create a simple Python Flask web application. The application will be only slightly better than "hello world," but it will be good enough to test the pipeline you will build.
+
+```
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+@app.route("/")
+def main():
+    model = {"title": "Hello DevOps Fans."}
+    return render_template('index.html', model=model)
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8080, debug=True, threaded=True)
+```
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
