@@ -1,21 +1,18 @@
-# Building a DevOps Pipeline
+# Deploying Apps to Google Cloud
 
 ## Overview
 
-In this lab, you will build a continuous integration pipeline using Cloud Source Repositories, Cloud Build, build triggers, and Container Registry.
+In this lab, you will deploy applications to the Google Cloud services App Engine, Kubernetes Engine, and Cloud Run.
 
-![Cloud Build](/images/CloudBuildCI.png/)
+![Cloud Build](/images/DeployingApps.png/)
 
 ## Objectives
 
 In this lab, you will learn how to perform the following tasks:
-- Create a Git repository
-- Create a simple Python application
-- Test Your web application in Cloud Shell
-- Define a Docker build
-- Manage Docker images with Cloud Build and Container Registry
-- Automate builds with triggers
-- Test your build changes
+- Download a sample app from GitHub
+- Deploy to App Engine
+- Deploy to Kubernetes Engine
+- Deploy to Cloud Run
 
 ## Set up your lab environment
 
@@ -42,3 +39,5 @@ If you use other credentials, you'll get errors or incur charges.
 Do not click End Lab unless you are finished with the lab or want to restart it.
 This clears your work and removes the project.
 ```
+## Task 1: Download a sample app from GitHub
+Download a sample application from GitHub and preview it in Cloud Shell.
