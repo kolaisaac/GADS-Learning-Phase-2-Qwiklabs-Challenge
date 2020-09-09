@@ -1,6 +1,20 @@
-# Foobar
+# Building a DevOps Pipeline
 
-Foobar is a Python library for dealing with word pluralization.
+## Overview
+
+In this lab, you will build a continuous integration pipeline using Cloud Source Repositories, Cloud Build, build triggers, and Container Registry.
+![Cloud Build](images/CloudBuildCI.png)
+
+## Objectives
+
+In this lab, you will learn how to perform the following tasks:
+- Create a Git repository
+- Create a simple Python application
+- Test Your web application in Cloud Shell
+- Define a Docker build
+- Manage Docker images with Cloud Build and Container Registry
+- Automate builds with triggers
+- Test your build changes
 
 ## Installation
 
@@ -20,5 +34,4 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+##  This Lab solution is  &copy; 2020
