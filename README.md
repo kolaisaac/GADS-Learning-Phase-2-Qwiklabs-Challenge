@@ -20,7 +20,7 @@ Due to limitations in regards to accessing free Google Cloud Platform (GCP), the
  </a>
  
 ### Translated Labs :
-<a href=''>
+<a href='https://github.com/kolaisaac/GADS-Learning-Phase-2-Qwiklabs-Challenge/tree/master/Translated%20Labs'>
   
  - Translated Labs 
  </a>
